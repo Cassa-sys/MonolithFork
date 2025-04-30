@@ -72,12 +72,8 @@
   </Box>
 
   - Enable the Cryogenics Air Pump at either 101.325 or 200 kPa.
-  - Check that the first gas filter is set to a waste gas (Nitrous Oxide).
-  - Check that the filter is set to 20 L/s.
-  - Enable the first filter.
-  - Check that the second gas filter is set to a waste gas (Carbon Dioxide).
-  - Check that the filter is set to 20 L/s.
-  - Enable the second filter.
+  - Check that both gas filter is set to a waste gases (Nitrous Oxide and Carbon Dioxide).
+  - Check that both gas filters are on.
   - Check that the freezer is set to the correct temperature (150).
   - Check that the freezer is working.
 

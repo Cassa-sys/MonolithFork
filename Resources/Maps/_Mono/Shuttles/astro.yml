@@ -1193,7 +1193,7 @@ entities:
       parent: 1
     - type: GasFilter
       filteredGas: NitrousOxide
-      transferRate: 20
+      transferRate: 100
     - type: AtmosPipeColor
       color: '#02BD9DFF'
   - uid: 125
@@ -1204,7 +1204,7 @@ entities:
       parent: 1
     - type: GasFilter
       filteredGas: CarbonDioxide
-      transferRate: 20
+      transferRate: 100
     - type: AtmosPipeColor
       color: '#02BD9DFF'
 - proto: GasMixerOn
