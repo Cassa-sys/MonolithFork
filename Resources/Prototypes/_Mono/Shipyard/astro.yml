@@ -1,0 +1,39 @@
+# Author Info
+# GitHub: Cassa-sys
+# Discord: cas0548
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Astro
+  parent: BaseVessel
+  name: DME Astro
+  description: A Cryoponics focused medical shuttle with a botanical section included.
+  price: 45808 # 150% Appraise - 30539
+  category: Medium
+  group: Medical
+  shuttlePath: /Maps/_Mono/Shuttles/astro.yml
+  guidebookPage: ShipyardAstro
+  class:
+    - Medical
+  engine:
+    - Uranium
+
+- type: gameMap
+  id: Astro
+  mapName: "DME Astro"
+  mapPath: /Maps/_Mono/Shuttles/astro.yml
+  minPlayers: 0
+  stations:
+    Astro:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Astro CIV{1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
+        - type: StationJobs
+          availableJobs:
+            Contractor: [0, 0]
+            Pilot: [0, 0]
+            Mercenary: [0, 0]
