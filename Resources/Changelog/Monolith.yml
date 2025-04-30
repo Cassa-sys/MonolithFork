@@ -1306,3 +1306,106 @@ Entries:
       message: Changed HF-katana to C2 contraband from C3.
   id: 154
   time: '2025-04-28T13:23:09.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Added Flyssa-class to the NCMC shipyard, a NGC destroyer lended from the
+        frontlines to help you kill Rogues. A bit over half a million, but the
+        CYREXAs are worth it.
+    - type: Add
+      message: >-
+        Added CYREXA 220mm guns as a heavy AP weapon, for capital-ship main
+        batteries.
+    - type: Remove
+      message: >-
+        Removed buying autocannons from TM/TO. You lagged the server too much
+        with gun bricks. No more.
+    - type: Tweak
+      message: Shield power surge duration lowered again to 25s.
+    - type: Tweak
+      message: CHARON is now unanchorable.
+    - type: Tweak
+      message: Removed CHARON flatpack from exped spawns.
+  id: 155
+  time: '2025-04-29T00:49:47.0000000+00:00'
+- author: LukeZurg22
+  changes:
+    - type: Add
+      message: New Service Shuttles
+    - type: Add
+      message: Colonial Staff Console to Colonial Outpost
+    - type: Remove
+      message: Old Service Shuttles
+    - type: Tweak
+      message: Sheriff -> Colonel
+  id: 156
+  time: '2025-04-29T07:08:08.0000000+00:00'
+- author: Ark
+  changes:
+    - type: Add
+      message: When rule breaks. The end is upon us all.
+  id: 157
+  time: '2025-04-29T11:08:43.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: Added a revamped interior (and some parts of the front hull) for Flyssa!
+  id: 158
+  time: '2025-04-29T21:51:26.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Added a shield power draw limit of 1.5mW to the MS-225 before it turns
+        off. I didn't have time to test this much, so report any bugs.
+  id: 159
+  time: '2025-04-30T02:35:55.0000000+00:00'
+- author: KiraZen-Underscore
+  changes:
+    - type: Add
+      message: Added Exocron, a Rogue ship which is made out of an old Zenith.
+  id: 160
+  time: '2025-04-30T05:59:49.0000000+00:00'
+- author: LukeZurg22
+  changes:
+    - type: Fix
+      message: No more 100 TC up per 6-10 wrecks.
+  id: 161
+  time: '2025-04-30T06:04:17.0000000+00:00'
+- author: LukeZurg22
+  changes:
+    - type: Fix
+      message: NCMC Lieutenant role name
+  id: 162
+  time: '2025-04-30T07:07:43.0000000+00:00'
+- author: Ark
+  changes:
+    - type: Fix
+      message: Burned down the shield blip orphanage.
+  id: 163
+  time: '2025-04-30T08:58:45.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Flyssa, Polaris, Zenith, and Razor now all skip processing for impact
+        collisions. No more Zeniths ramming you to death. No more killing a
+        Flyssa with a framework.
+  id: 164
+  time: '2025-04-30T10:39:01.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Fix
+      message: Fixed missing FTL drive on Flyssa and Archer unpowered thrusters
+  id: 165
+  time: '2025-04-30T11:37:26.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Tweaked shields a bit more. Now when above 1.5mW of power usage, the
+        shield will only reenable once under 200kW of power usage. Flux
+        overload....
+  id: 166
+  time: '2025-04-30T21:04:24.0000000+00:00'
